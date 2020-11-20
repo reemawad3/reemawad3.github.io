@@ -1,27 +1,38 @@
-@media screen and (min-width: 640px){
-    .flex-container {
-        display: flex;
-    }    
+
+@media screen and (min-width:375px){
+
 }
+  
+      body, html {
+        margin: 0;
+        padding: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        font-weight: 100;
+        font-size: 20px;
+      }
+     
+            
 
 
-header{
-    background-color: rgb(240, 227, 240);
-    padding: 20px;
+    header{
+        background-color: rgb(240, 227, 240);
+        padding: 20px;
+        }
+    header ul {
+        white-space: nowrap;
+        }
+    header  li{
+        width: 25%;
+        display: inline-block;
+        font-size: 34px;
+        
+        }
+    header li a {
+        color: violet;
     }
-header ul {
-    white-space: nowrap;
-    }
-header  li{
-    width: 25%;
-    display: inline-block;
-    font-size: 34px;
-    }
-header li a {
-    color: violet;
-}
-
-articale h2{
+h2{
      color: rgb(161, 83, 135);
      font-size: 38px;
      text-align:center;
@@ -33,10 +44,14 @@ article p{
     
 }
 aside img{
-    width:18%; 
+  
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
     float: right;
-    margin: 5px 80px;
-}
+   
+  }
 
 footer{
     background-color:rgb(212, 160, 151);
