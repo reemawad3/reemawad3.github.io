@@ -1,4 +1,13 @@
-@media screen and (min-width:375px) {}
+@media screen and (max-width:480px) {
+  main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
 
 body {
   background-color: #efefef;
